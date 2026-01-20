@@ -1,0 +1,83 @@
+body {
+    background-color: lightgray;
+    font-family: Arial;
+}
+
+#stranka {
+    width: 900px;
+    margin: auto;
+    background-color: white;
+}
+
+
+header {
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+
+
+#logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+main {
+    padding: 20px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+img {
+    float: right;
+    margin: 10px;
+    width: 85px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+footer {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
